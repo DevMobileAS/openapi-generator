@@ -1,6 +1,6 @@
 {
   "name": "OpenAPIGenerator",
-  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:1.0.4-bookworm",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
       "version": "11",
@@ -11,10 +11,10 @@
     },
     "ghcr.io/devcontainers/features/rust:1": {},
     "ghcr.io/snebjorn/devcontainer-feature/chromium:latest": {},
-    "docker-in-docker": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "version": "latest",
       "moby": true,
-      "dockerDashComposeVersion": "v1"
+      "dockerDashComposeVersion": "v2"
     }
   },
   // Configure tool-specific properties.
